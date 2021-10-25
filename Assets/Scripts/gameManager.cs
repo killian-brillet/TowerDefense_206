@@ -25,7 +25,7 @@ public class gameManager : MonoBehaviour
 
     private void Start()
     {
-        
+        gameTimer = preparationTime;
     }
 
     private void Update()
@@ -33,8 +33,9 @@ public class gameManager : MonoBehaviour
         switch(gameState)
         {
             case GameState.PREPARATION:
-                gameTimer += Time.deltaTime;
-                if(gameTimer >= preparationTime)
+                gameTimer -= Time.deltaTime;
+                UIManager.instance.SetTimer(gameTimer);
+                if(gameTimer < 0)
                 {
                     gameTimer = 0;
                     gameState = GameState.RUNNING;
