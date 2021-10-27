@@ -125,10 +125,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7759624777184372221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a078f4cc72b80b48a3cb8613b10f8c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 3205840a925f4df44952721288a8ae2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upgrade: {fileID: 7962688245939794127, guid: f91d3f7c9b3d7fc4c921f88605fa6986, type: 3}
+  _upgrade: {fileID: 7962688245939794127, guid: 1cffc93d4d6111645b08caa65a64b8d2, type: 3}
 --- !u!136 &7759624777184372220
 CapsuleCollider:
   m_ObjectHideFlags: 0
